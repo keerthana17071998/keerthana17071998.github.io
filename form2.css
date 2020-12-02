@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.right {
+    
+    background-color: whitesmoke;
+    padding: 60px;
+}
+
+header .navigation 
+{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li
+{
+    list-style: none;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+header .navigation li a
+{
+    text-decoration: none;
+    color: slategray;
+}
+
+header .navigation li a:hover
+{
+    color: rgb(98, 98, 236)
+}
+
+.side{
+    padding-left: 20px;
+}
+.side .sign{
+    font-size: small;
+    color: slategray;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.table
+{
+    padding-left: 20px;
+    color: slategrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table tr td
+{
+    padding-bottom:20px;
+}
+.table tr td .input
+{
+    padding: 5px;
+    border-radius: 2px ;
+}
+.container{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.back{
+    padding-top: 50px;
+    color: black;
+    padding-left: 20px;
+}
+.button{
+    padding-left: 190px;
+    padding-top: 45px;
+}
+.footer
+{
+    padding-bottom: 50px;
+    font-size: medium;
+    color: slategrey;
+}
+.pr{
+    padding-left: 450px;
+}
+.term
+{
+    padding-left: 50px;
+}
+.yourcart
+{
+    color:slategrey;
+    padding-top: 25px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    
+}
+
+.yourcart .edit
+{
+    color:black;
+    padding-left:400px ;
+}
+.price
+{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding: 10px;
+    width:140%;
+}
+
+
+.padding1 
+{
+    padding-right: 400px;
+    padding: 10px;
+    
+}
+.padding2 
+{
+    padding-right: 400px;
+    padding: 10px;
+}
+.padding3 
+{
+    padding-left: 400px;
+    padding: 10px;
+}
+.padding4 
+{
+    padding-left: 400px;
+    padding: 10px;
+}
+.padding5
+{
+    padding-left: 400px;
+    padding: 10px;
+}
+.padding6
+{
+    padding-left: 400px;
+    font-size: large;
+    padding: 10px;
+    font-weight: bold;
+}
+.details
+{
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.sub
+{
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+.returns
+{
+    padding-left: 55px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.sub1
+{
+    padding-left: 55px;
+    padding-bottom: 40px;
+}
+.help
+{
+    padding-left: 55px; 
+}
+@media screen and (max-width: 800px) {
+    #container , .td , .tr {
+        flex-wrap: wrap;
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    
+}
