@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container1 {
+    flex: 50%;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+.container2 {
+    background-color: #eaeaea;
+    flex: 50%;
+    padding: 20px;
+    color: #111111d0;
+}
+
+.content {
+    padding-top: 40px;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+}
+
+input {
+    padding: 10px;
+}
+
+select {
+    padding: 10px 53px;
+}
+
+.field label {
+    margin-bottom: 10px;
+}
+
+.field div {
+    margin: 0 25px 25px 0;
+}
+
+.field label {
+    display: block;
+    color: #111111d0;
+}
+
+.wrap {
+    margin-top: 40px;
+}
+
+.button2 {
+    background-color:  rgb(85, 85, 240);
+    padding: 10px 75px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+.link1 {
+    padding-top: 50px;
+}
+
+.wname span {
+    display: block;
+}
+
+.tab1 th {
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+#right {
+    margin-bottom: 50px;
+}
+
+.fas {
+    margin-right: 20px;
+}
+
+.tab2 th {
+    padding-bottom: 60px;
+}
+
+.amount td {
+    padding-bottom: 20px;
+    color: #111111d0;
+}
+
+.delivery {
+    margin-bottom: 20px;
+    font-weight: 40;
+}
+
+.pagef {
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pagef a {
+    padding-left: 40%;
+}
+
+.pagef i {
+    margin-left: 40px;
+}
+
+@media( max-width:800px) {
+    body {
+        padding: 5px;
+        margin: 0%;
+        width: 100%;
+    }
+    .nav,
+    .flex-container,
+    .field,
+    .link1 {
+        flex-wrap: wrap;
+    }
+    .pagef {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .pagef a {
+        padding-left: 0%;
+    }
+    .icon {
+        display: block;
+        padding-left: 0%;
+    }
+    .container1 {
+        margin-left: 0%;
+        padding-bottom: 50px;
+        padding-left: 0%;
+    }
+    .state {
+        margin-left: 0%;
+    }
+    input {
+        width: 100%;
+    }
+    .feild div {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+    select {
+        width: 100%;
+    }
+    .button2 {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .field div {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+    .bill {
+        width: 5%;
+    }
+}

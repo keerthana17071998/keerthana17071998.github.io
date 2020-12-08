@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+.container1 {
+    flex: 50%;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+.container2 {
+    background-color: #eaeaea;
+    flex: 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.content {
+    padding-top: 40px;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+}
+
+.wrap {
+    margin-top: 40px;
+}
+
+.button2 {
+    background-color:  rgb(85, 85, 240);
+    padding: 10px 75px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+
+.link1 {
+    padding-top: 50px;
+}
+
+.wname span {
+    display: block;
+}
+
+.tab1 th {
+    padding-bottom: 50px;
+    font-weight: 100;
+}
+
+.tab2 th {
+    padding-bottom: 60px;
+}
+
+.amount td {
+    padding-bottom: 20px;
+}
+
+.delivery {
+    margin-bottom: 20px;
+}
+
+#right {
+    margin-bottom: 50px;
+}
+
+.fas {
+    margin-right: 20px;
+}
+
+.pagef {
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pagef a {
+    padding-left: 40%;
+}
+
+.vv {
+    padding-top: 20px;
+}
+
+.p {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.ee {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.sp {
+    padding-left: 80px;
+}
+
+.pagef i {
+    margin-left: 40px;
+}
+
+@media( max-width:800px) {
+    body {
+        padding: 5px;
+        margin: 0%;
+        width: 100%;
+    }
+    .nav,
+    .flex-container,
+    .field,
+    .link1 {
+        flex-wrap: wrap;
+    }
+    .pagef {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+    .icon {
+        display: block;
+        padding-left: 0%;
+    }
+    .button2 {
+        margin-top: 20px;
+        margin-left: 0%;
+    }
+    .container1 {
+        margin-left: 0%;
+        padding-left: 0%;
+        padding-bottom: 50px;
+    }
+    .state {
+        margin-left: 0%;
+    }
+    .feild div {
+        width: 100%;
+        margin: 0 0 25px 0;
+    }
+    select {
+        width: 100%;
+    }
+    .pagef a {
+        padding-left: 0%;
+    }
+}
